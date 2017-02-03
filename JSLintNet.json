@@ -1,0 +1,13 @@
+﻿{
+  "version": "2.3.0",
+  "output": "Warning",
+  "ignore": [],
+  "options": {
+    "single": true
+  },
+  "globalVariables": [
+    "console"
+  ],
+  "runOnSave": true,
+  "runOnBuild": true
+}
