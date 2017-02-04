@@ -6,7 +6,8 @@
     "single": true
   },
   "globalVariables": [
-    "console"
+    "console",
+    "windows"
   ],
   "runOnSave": true,
   "runOnBuild": true

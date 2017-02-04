@@ -6,13 +6,13 @@ var x = 10;
 //functions next
 function print(input) {
     //variables first
-    var localX = 0;
+    var localX = input;
     //functions next
     function log() {
         console.log(localX);
     }
     //run code
-    console.log(input);
+    log();
 }
 //run code
 print(x);
