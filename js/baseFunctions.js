@@ -43,15 +43,29 @@
 //---------------------------------------------------
 //Example 4
 //---------------------------------------------------
-var scope = 'global';
+//var scope = 'global';
 
-function testScope() {
-    var scope = "local";
-    var innerFunc = function () {
-        return scope;
-    };
-    return innerFunc;
+//function testScope() {
+//    var scope = "local";
+//    var innerFunc = function () {
+//        return scope;
+//    };
+//    return innerFunc;
+//}
+
+//var answer = testScope()();
+//output.innerHTML = answer;
+
+//---------------------------------------------------
+//Example 5
+//---------------------------------------------------
+function expFunc(num, exp) {
+    if (exp === 0) {
+        return 1;
+    }
+
+    return num * expFunc(num, exp - 1);
 }
 
-var answer = testScope()();
+var answer = expFunc(3, 4);
 output.innerHTML = answer;
