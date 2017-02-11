@@ -60,11 +60,11 @@
 //Example 5
 //---------------------------------------------------
 function expFunc(num, exp) {
-    if (exp === 0) {
-        return 1;
-    }
+  if (exp === 0) {
+    return 1;
+  }
 
-    return num * expFunc(num, exp - 1);
+  return num * expFunc(num, exp - 1);
 }
 
 var answer = expFunc(3, 4);
