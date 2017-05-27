@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ramezmagdy/NetPull/issues"
   },
-  "homepage": "https://github.com/ramezmagdy/NetPull#readme"
+  "homepage": "https://github.com/ramezmagdy/NetPull#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
