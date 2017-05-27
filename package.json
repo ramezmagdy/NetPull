@@ -1,0 +1,20 @@
+{
+  "name": "netpull",
+  "version": "1.0.0",
+  "description": "Network Protocols Node.Js Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js\\equality.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramezmagdy/NetPull.git"
+  },
+  "author": "Ramez Hanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramezmagdy/NetPull/issues"
+  },
+  "homepage": "https://github.com/ramezmagdy/NetPull#readme"
+}
