@@ -4,14 +4,14 @@
   "description": "Network Protocols Node.Js Service",
   "main": "index.js",
   "scripts": {
-    "start": "node js\\equality.js",
+    "start": "node js//equality.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ramezmagdy/NetPull.git"
   },
-  "author": "Ramez Hanna",
+  "author": "ramez hanna",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ramezmagdy/NetPull/issues"
